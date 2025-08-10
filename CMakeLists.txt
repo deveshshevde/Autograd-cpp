@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(AUTOGRAD_CPP)
 
 set(CMAKE_CXX_STANDARD 17)
-
+    
 add_library(AUTOGRAD_CPP SHARED
     Src/tensor.cpp
     Src/ops.cpp
